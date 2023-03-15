@@ -1,10 +1,13 @@
 {
+  "homepage": "http://Musiitwa-Joel.github.io/nkumbauni",
   "name": "valex",
   "private": true,
   "version": "0.0.0",
   "type": "module",
   "scripts": {
     "dev": "vite",
+    "predeploy": "npm run build",
+     "deploy": "gh-pages -d build",
     "build": "vite build",
     "preview": "vite preview"
   },
@@ -42,6 +45,7 @@
     "firebase": "^9.15.0",
     "formik": "^2.2.9",
     "generate-react-cli": "^8.0.1",
+    "gh-pages": "^5.0.0",
     "gulp": "^4.0.2",
     "gulp-beautify": "^3.0.0",
     "gulp-cssbeautify": "^3.0.1",
